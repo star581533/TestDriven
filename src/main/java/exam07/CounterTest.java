@@ -14,4 +14,5 @@ public class CounterTest {
 		counter.increment();
 		Assert.assertEquals(2, counter.value());
 	}
+	
 }
