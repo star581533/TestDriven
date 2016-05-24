@@ -24,6 +24,7 @@ public class CounterChangTest {
 			public void run() {
 				for(int i=0; i<incrementsPerThread; i++){
 					codeUnderTest.increment();
+					System.out.println(codeUnderTest.value());
 				}
 			}			
 		};
